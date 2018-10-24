@@ -15,7 +15,6 @@ public class TestApplication {
     public Object testBean(PlatformTransactionManager platformTransactionManager) {
        // log.info("事务管理器:{}" + platformTransactionManager.getClass().getName());
         //System.out.println("事务管理器:{}" + platformTransactionManager.getClass().getName());
-
         return new Object();
     }
 }
